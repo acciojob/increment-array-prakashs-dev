@@ -1,6 +1,11 @@
-let arr = [1, 2, 3, 4, 5];
+let arr = [-2, -1, 0];
 function incrementArray(arr) {
   //your code here
+	let a = [];
+	for (let i = 0; i < arr.length; i++) {
+		a.push(++arr[i]);
+	}
+	return a;
 }
 
 alert(incrementArray(arr));
